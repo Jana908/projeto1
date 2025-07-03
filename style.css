@@ -3,5 +3,13 @@
 .lista-noticias .noticia {
     margin-bottom: 40px;
 }
-
+hearder{
+    text-align: center;
+    padding: 20px;
+}
+.logo{
+   width: 150px;
+   display: block;
+   margin: 0 auto;
+}		
 		
