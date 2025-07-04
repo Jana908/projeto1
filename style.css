@@ -3,13 +3,31 @@
 .lista-noticias .noticia {
     margin-bottom: 40px;
 }
-hearder{
-    text-align: center;
-    padding: 20px;
+body{
+   margin: 0;
+   padding:0;
+   font-family: Arial,sans-serif;
+}
+.cabecalho{
+   position: relative;
+   text-align: center;
+   padding: 40px;
+   background-color: #f2f2f2;
 }
 .logo{
    width: 150px;
-   display: block;
-   margin: 0 auto;
-}		
-		
+   height: auto;
+}
+.imagem-sobre;{
+   position: absolute;
+   top: 10px;
+   left: 50%;
+   transform: translateX(-50);
+   width: 100px;
+   z-index: 2;
+   opacity: 0.9;
+}
+.titulo{
+   margin-top: 10px;
+   font-size: 32px;
+}
